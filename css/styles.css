@@ -48,9 +48,7 @@ header {
 
 .topnav .logo {
   height: 40px;
-  /* Ajusta la altura de la imagen según tus preferencias */
   vertical-align: middle;
-  /* Centra la imagen verticalmente en el menú */
 }
 
 @media screen and (max-width: 600px) {
@@ -65,9 +63,7 @@ header {
 
   .topnav .logo {
     display: inline;
-    /* Mostrar el logo en la versión responsive */
     margin-right: 10px;
-    /* Ajusta el espacio entre el logo y otros elementos */
   }
 }
 
@@ -90,36 +86,91 @@ header {
   }
 }
 
-.slider-container img {
+  .slider-container img {
   margin-top: 20px;
     height: auto;
     max-width: 100%;
+    opacity: 80%;
     }
 
-  /* Estilo para el texto en cada diapositiva */
-  .textoimg1 {
-   
+    .textoslider {
       position: absolute;
-      top: 50%;
-      left: 50%;
+      top: 20%;
+      left: 0;
+      transform: translateY(-50%);
       text-align: left;
-      color: rgb(240, 146, 6);
-      /* transform: translate(-50%, -50%); */
-      /* background-color: rgba(0, 0, 0, 0.7); */
-      /* padding: 80px; */
-     /* max-width: 80%; Ancho máximo del texto */
-  }
-  
-  /* Estilo adicional para el texto, como tamaño de fuente y margen */
-  .textoimg1 h1 {
-      font-size: 40px;
-      margin: 0;
-  }
-  
-  .textoimg1 p {
-      font-size: 25px;
-      margin: 0;
-  }
-  
+      color: white;
+      padding: 20px;
+      max-width: 80%;
+    }
 
+  .textoslider.img1 {
+    float: left;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+  
+  .textoslider.img1 h1 {
+      font-size: 60px;
+      margin-bottom: 10px;
+      text-shadow: 2px 2px black;
+  }
+  
+  .textoslider.img1 h2 {
+    font-size: 50px;
+    margin-bottom: 10px;
+    text-shadow: 2px 2px black;
+  }
+  
+  .textoslider.img2 {
+      float: left;
+      margin-top: 50px;
+      margin-left: 20px;
+  }
 
+  .textoslider.img2 h1 {
+    font-size: 60px;
+    margin-bottom: 10px;
+    text-shadow: 2px 2px black;
+  }
+
+  .textoslider.img2 h2 {
+    font-size: 50px;
+    margin-bottom: 10px;
+    text-shadow: 2px 2px black;
+  }
+
+  .textoslider.img3 {
+    float: left;
+    margin-top: 50px;
+    margin-left: 20px;
+}
+
+  .textoslider.img3 h1 {
+    font-size: 60px;
+    margin-bottom: 10px;
+    text-shadow: 2px 2px black;
+  }
+
+  .textoslider.img3 h2 {
+    font-size: 50px;
+    margin-bottom: 10px;
+    text-shadow: 2px 2px black;
+  }
+  .textoslider.img4 {
+    float: left;
+    margin-top: 50px;
+    margin-left: 20px;
+}
+
+  .textoslider.img4 h1 {
+    font-size: 60px;
+    margin-bottom: 10px;
+    text-shadow: 2px 2px black;
+  }
+
+  .textoslider.img4 h2 {
+    font-size: 50px;
+    margin-bottom: 10px;
+    text-shadow: 2px 2px black;
+  }
