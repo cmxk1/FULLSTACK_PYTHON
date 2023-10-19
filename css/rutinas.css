@@ -10,7 +10,7 @@ header {
 }
 
 .topnav {
-  overflow:auto;
+  overflow: auto;
   background-color: orange;
 }
 
@@ -95,9 +95,26 @@ body {
 .rutinas-container {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-around;
-  align-items: flex-start;
+  justify-content: space-between;
   padding: 20px;
+}
+
+.rutina {
+  flex-basis: calc(33.33% - 20px);
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  padding: 20px;
+}
+
+.rutina h2 {
+  display: flex;
+  align-items: center;
+}
+
+.rutina i {
+  margin-right: 10px;
 }
 
 footer {
@@ -105,4 +122,23 @@ footer {
   color: white;
   padding: 20px;
   text-align: center;
+}
+
+/* Media Query para dispositivos móviles */
+@media (max-width: 768px) {
+  .rutinas-container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .rutina {
+    flex-basis: 100%;
+  }
+}
+
+/* Ajustes adicionales para pantallas más grandes */
+@media (min-width: 1200px) {
+  .rutina {
+    flex-basis: calc(25% - 20px);
+  }
 }
