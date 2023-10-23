@@ -1,0 +1,41 @@
+.iconos {
+  align-items: center;
+}
+
+.card-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  grid-gap: 20px;
+  justify-items: center;
+  align-items: center;
+  text-align: center;
+  margin: 0 auto;
+  max-width: 1200px;
+}
+
+.card {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 10px;
+  background-color: #f0f0f0;
+  height: 100%;
+  width: 100%;
+}
+
+.card img {
+  max-width: 100%;
+  border-radius: 50%;
+}
+
+h2 {
+  text-align: center;
+  margin-top: 30px;
+}
+
+.entrenadoresSection {
+  margin: 35px;
+}
+
+.nutricionistasSection {
+  margin: 35px;
+}
