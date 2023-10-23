@@ -4,14 +4,11 @@ body {
 
 
 .explanation-card {
-
 background-color: white ;
 padding: 2%;
 margin: 2%;
 display: flex;
 align-items: center;
-
-
 }
 
 .titulo-categoria {
@@ -21,52 +18,34 @@ margin: 2%;
 .text-card {
 margin: 2%;
 
-
 }
 
 .explanation-card-caloriasalimentos {
-
 background-color: white ;
 padding: 2%;
 margin: 2%;
-
 }
     
 .explanation-card-caloriasCalculadora{
 background-color: white ;
 padding: 2%;
 margin: 2%;
-
-    
 }
 
-
-div {
-
-
-
-}
-
-section {
-margin: 1%;
-
-}
 
 p {
- background-color: white;
-
+background-color: white;
 }
 
 h2 {
-
 text-align: center;
 padding: 1%;
 color: white;
-
 }
 
 .explanation-card-nutricion {
-
+margin-left: 10%;
+margin-right: 10%;
 }
 
 .calorias_que_son {
