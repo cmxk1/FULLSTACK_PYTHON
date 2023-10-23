@@ -9,6 +9,19 @@ background-color: white ;
 padding: 2%;
 margin: 2%;
 display: flex;
+align-items: center;
+
+
+}
+
+.titulo-categoria {
+margin: 2%;
+}
+
+.text-card {
+margin: 2%;
+
+
 }
 
 .explanation-card-caloriasalimentos {
@@ -35,7 +48,7 @@ div {
 }
 
 section {
-
+margin: 1%;
 
 }
 
@@ -50,15 +63,12 @@ text-align: center;
 padding: 1%;
 color: white;
 
-
 }
 
 .explanation-card-nutricion {
-
 
 }
 
 .calorias_que_son {
 display: flex;
-
 }
