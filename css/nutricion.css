@@ -1,0 +1,65 @@
+body {
+    background-color: gray;
+}
+
+
+.explanation-card {
+
+background-color: white ;
+padding: 2%;
+margin: 2%;
+display: flex;
+}
+
+.explanation-card-caloriasalimentos {
+
+background-color: white ;
+padding: 2%;
+margin: 2%;
+
+}
+    
+.explanation-card-caloriasCalculadora{
+background-color: white ;
+padding: 2%;
+margin: 2%;
+
+    
+}
+
+
+div {
+
+
+
+}
+
+section {
+
+
+}
+
+p {
+ background-color: white;
+ margin: ;
+
+
+
+}
+
+h2 {
+
+text-align: center;
+padding: 1%;
+
+}
+
+.explanation-card-nutricion {
+
+
+}
+
+.calorias_que_son {
+display: flex;
+
+}

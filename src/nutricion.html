@@ -1,35 +1,114 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="../css/styles.css"/>
-    <title>Ejercicios y Nutricion</title>
-  </head>
-  <body>
-    <header>
-      <div class="topnav" id="myTopnav">
-        <a href="../index.html"><img src="../assets/img/Logo.ico" alt="Logo" class="logo"></a>
-        <a href="rutsinas.html">Rutinas</a>
-        <a href="comunidad.html">Comunidad</a>
-        <a href="nutricion.html" class="active">Nutricion</a>
-        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
-          <i class="fa fa-bars"></i>
-        </a>
-      </div>
-      <script>
-        function myFunction() {
-          var x = document.getElementById("myTopnav");
-          if (x.className === "topnav") {
-            x.className += " responsive";
-          } else {
-            x.className = "topnav";
-          }
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="../css/styles.css" />
+  <link rel="stylesheet" href="/css/nutricion.css">
+  <title>Nutricion</title>
+</head>
+
+<body>
+  <header>
+    <div class="topnav" id="myTopnav">
+      <a href="../index.html"><img src="../assets/img/Logo.ico" alt="Logo" class="logo"></a>
+      <a href="rutsinas.html">Rutinas</a>
+      <a href="comunidad.html">Comunidad</a>
+      <a href="nutricion.html" class="active">Nutricion</a>
+      <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+        <i class="fa fa-bars"></i>
+      </a>
+    </div>
+    <script>
+      function myFunction() {
+        var x = document.getElementById("myTopnav");
+        if (x.className === "topnav") {
+          x.className += " responsive";
+        } else {
+          x.className = "topnav";
         }
-      </script>
-    </header>
-    <main>Nutricion</main>
-    <footer></footer>
-  </body>
+      }
+    </script>
+  </header>
+
+  <main>
+
+    <section>
+      <h2> Informacion Nutricional </h2>
+      <div class="explanation-card-nutricion">
+        <img
+        src="https://images.pexels.com/photos/1640777/pexels-photo-1640777.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+        alt="">
+      </div>
+      
+    </section>
+
+
+
+    <section class="calorias_que_son">
+      <div class="explanation-card">
+        <h3>Calorias - que son? </h3>
+        <p>Las calorías son la energía que se encuentra en los alimentos. El cuerpo tiene una demanda constante de
+          energía y utiliza las calorías de los alimentos para seguir funcionando. La energía de las calorías impulsa
+          todas tus acciones, desde pequeños movimientos hasta una carrera de maratón.</p>
+
+      </div>
+
+      <div class="explanation-card">
+        <h3>Tipos de Calorias </h3>
+        <ul>
+          <li>Proteinas = 4Kcal</li>
+          <li>Carbohidratos = 4Kcal</li>
+          <li>Grasas = 9Kcal</li>
+        </ul>
+
+      </div>
+
+    </section>
+
+    <section>
+      <h2> Calorias por alimentos </h2>
+      <div class="explanation-card-caloriasalimentos">
+        <p>Sabias que cada alimento tiene una cantidad de calorias especifica y que calculando la ingesta de calorias
+          diarias podes rebajar </p>
+      </div>
+    </section>
+
+
+    <section>
+      <h2> Calculadora de calorias </h2>
+      <div class="explanation-card-caloriasCalculadora">
+        <p> En esta seccion podras calcular cuantas calorias debes comer acorde a tu peso y altura</p>
+
+      </div>
+      
+
+    </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  </main>
+
+  <footer></footer>
+</body>
+
 </html>
