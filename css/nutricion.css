@@ -43,9 +43,8 @@ padding: 1%;
 color: white;
 }
 
-.explanation-card-nutricion {
-margin-left: 10%;
-margin-right: 10%;
+.nutricion_imagen {
+width: max-content;
 }
 
 .calorias_que_son {
