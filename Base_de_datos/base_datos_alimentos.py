@@ -41,12 +41,17 @@ cargar_base_de_datos()
 #agregar_alimento("Pollo a la parrilla", 150, 165)
 #agregar_alimento("Arroz integral", 50, 110)
 
-
+answer = False
 
 print("Ingrese el alimento, la porcion en gramos y las calorias por esa porcion: ")
 agregar_alimento(nombre=input("ingrese el nombre: "),porcion_gramos=input("Ingrese la cantidad de la porcion en gramos: "), calorias=input("ingrese la cantidad de calorias: ")  )
 
+print(input("¿Desea consultar la base de datos? Y/N "))
 
+if answer == True:
+    agregar_alimento
+else:
+    print ("Desea consultar la base de datos?")
 
 # Consultar la base de datos
 print(consultar_base_de_datos())
