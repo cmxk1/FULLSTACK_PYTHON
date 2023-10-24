@@ -89,14 +89,15 @@ header {
   .slider-container img {
   margin-top: 20px;
     height: auto;
-    max-width: 100%;
+    max-width: 95%;
     opacity: 80%;
+     margin-left: 50px;
     }
 
     .textoslider {
-      position: absolute;
+      position:absolute;
       top: 20%;
-      left: 0;
+      left: 10px;
       transform: translateY(-50%);
       text-align: left;
       color: white;
