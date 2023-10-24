@@ -7,6 +7,17 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <link rel="stylesheet" href="../css/styles.css" />
   <link rel="stylesheet" href="../css/nutricion.css">
+
+
+
+
+
+  <!-- <script src="../scripts/nutricion.js"></script> -->
+
+
+
+
+
   <title>Nutricion</title>
 </head>
 
@@ -84,32 +95,36 @@
     </section>
 
 
-
-    <section>
-      <h2>Buscador de alimentos con cantidad de calorias</h2>
-      <div class="buscadorAlimentos">
-        <input type="text">
-      </div>
-    </section>
-   
-
-
-    <section>
-      <h2> Calculadora de calorias </h2>
-      <div class="calculadoraCalorias">
-        <p> En esta seccion podras calcular cuantas calorias debes comer acorde a tu peso y altura</p>
-        <input type="text">
-        <form action=""> <input type="text"></form>
-      </div>
-    </section>
-
+    <div class="container">
+      <h2>Calculadora de Calorías</h2>
+      <label for="weight">Peso (en kg):</label><br>
+      <input type="text" id="weight" name="weight"><br>
+      <label for="height">Altura (en cm):</label><br>
+      <input type="text" id="height" name="height"><br>
+      <label for="age">Edad:</label><br>
+      <input type="text" id="age" name="age"><br>
+      <label for="activity">Nivel de Actividad:</label><br>
+      <select id="activity" name="activity">
+          <option value="1.2">Sedentario (poco o ningún ejercicio)</option>
+          <option value="1.375">Poco activo (ejercicio ligero)</option>
+          <option value="1.55">Moderadamente activo (ejercicio moderado)</option>
+          <option value="1.725">Muy activo (trabajo físico o ejercicio intenso)</option>
+          <option value="1.9">Hiperactivo (trabajo físico muy intenso)</option>
+      </select><br><br>
+      <button onclick="calculateCalories()">Calcular</button>
+      <p id="result"></p>
+      <p><i>Este cálculo es aproximado y puede variar según varios factores individuales.</i></p>
+  </div>
+  
+  <script src="../scripts/nutricion.js"></script>
+  
 
 
 </main>
 
   <footer>
     <section>
-      <ul class="iconos">
+      <ul class="social-links">
         <li>
           <a href="https://www.facebook.com/TuPaginaDeNutricion">
             <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="50" height="50" viewBox="0 0 100 100">

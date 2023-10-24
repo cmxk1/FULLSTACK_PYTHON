@@ -1,15 +1,16 @@
 body {
-    background-color: burlywood;
+    background-color: antiquewhite;
 }
 
-h1 {
+.titulo h1 {
     text-align: center;
+    text-shadow: 2px 2px grey;
 }
 
 form {
     max-width: 400px;
     margin: 0 auto;
-    background-color: burlywood;
+    background-color: antiquewhite;
     transition: box-shadow 0.3s ease-in-out;
     font-family: Arial, sans-serif;
     font-size: 20px; 
@@ -60,6 +61,3 @@ ul.social-links {
     margin-top: 80px;
 }
 
-ul.social-links li {
-    box-shadow: 2px 2px grey;
-}
