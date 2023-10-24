@@ -1,6 +1,8 @@
 body {
   margin: 0;
   font-family: Arial, Helvetica, sans-serif;
+  background-color: antiquewhite;
+
 }
 
 header {
@@ -86,12 +88,6 @@ header {
   }
 }
 
-/* Estilos para el proyecto de rutinas deportivas */
-
-body {
-  font-family: Arial, sans-serif;
-}
-
 .rutinas-container {
   display: flex;
   flex-wrap: wrap;
@@ -101,8 +97,8 @@ body {
 
 .rutina {
   flex-basis: calc(33.33% - 20px);
-  background-color: #f9f9f9;
-  border: 1px solid #ddd;
+  background-color: #5de3ec;
+  border: 1px solid #5917f3;
   border-radius: 5px;
   margin-bottom: 20px;
   padding: 20px;
@@ -111,10 +107,12 @@ body {
 .rutina h2 {
   display: flex;
   align-items: center;
+text-decoration-line:underline overline;
 }
 
 .rutina i {
   margin-right: 10px;
+  
 }
 
 footer {
@@ -124,7 +122,6 @@ footer {
   text-align: center;
 }
 
-/* Media Query para dispositivos móviles */
 @media (max-width: 768px) {
   .rutinas-container {
     flex-direction: column;
@@ -136,7 +133,6 @@ footer {
   }
 }
 
-/* Ajustes adicionales para pantallas más grandes */
 @media (min-width: 1200px) {
   .rutina {
     flex-basis: calc(25% - 20px);

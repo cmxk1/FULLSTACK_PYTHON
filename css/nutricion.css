@@ -41,10 +41,15 @@ h2 {
 text-align: center;
 padding: 1%;
 color: white;
+text-shadow: 2px 2px black;
 }
 
-.nutricion_imagen {
-width: max-content;
+div.nutricion_imagen {
+    display: block;
+    width: 50%;
+    height: 50%;
+    margin-left: 20%;
+    margin-right: auto;
 }
 
 .calorias_que_son {
