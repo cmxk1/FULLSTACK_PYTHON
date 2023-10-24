@@ -3,17 +3,45 @@ body {
 }
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 
 .explanation-card {
 background-color: white ;
 padding: 2%;
 margin: 2%;
 display: flex;
 align-items: center;
+flex-direction: column;
+text-align: center;
 }
 
 .titulo-categoria {
 margin: 2%;
 }
+
+
 
 .text-card {
 margin: 2%;
@@ -54,4 +82,4 @@ div.nutricion_imagen {
 
 .calorias_que_son {
 display: flex;
-}
+} */

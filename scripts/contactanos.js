@@ -1,4 +1,4 @@
-<script>
+{/* <script>
     const form = document.getElementById("contact-form");
 
     form.addEventListener("submit", function(event) {
@@ -16,4 +16,4 @@
             alert("Por favor, complete todos los campos.");
         }
     });
-</script>
+</script> */}
