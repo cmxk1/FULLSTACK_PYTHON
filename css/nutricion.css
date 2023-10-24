@@ -13,8 +13,7 @@ h1 {
     text-decoration-line: underline;
 }
 
-
-img {
+img.presentacion {
     display: block;
     width: 50%;
     height: 50%;
@@ -25,19 +24,21 @@ img {
 h2{
     text-align: center;
     padding: 1%;
-    color: white;
-    text-shadow: 2px 2px black;
+    color: black;
+    text-shadow: 2px 2px rgb(176, 155, 209);
     text-decoration-line: underline;
 }
+
 
 p {
     text-align-last: center;
     font-size: 20px; 
-}
+} 
 
-section div.target-card ul {
+section div.card-container ul {
     text-align: center;
     list-style: none;
+    font-size: 20px; 
 }
 
 input[type="text"] {
@@ -50,6 +51,44 @@ input[type="text"] {
 }
 
 
+ul.iconos {
+    list-style: none;
+    display: flex;
+    margin-top: 80px;
+    justify-content:space-evenly;
+  }
+  
+  .tarjeta {
+    background-color: blanchedalmond;
+    margin-left: 10px;
+    margin-top: 20px;
+    width: 75vmax; 
+    height: 40vh; 
+    border: 1px solid #ccc; 
+    padding: 20px; 
+  }
+
+
+  .tarjeta2 {
+    width: 17vmax; 
+    height: 40vh; 
+    padding: 20px;
+    border: 1px solid #ccc;
+    margin-top: -22% ;
+    margin-left: 80%;
+    background-color: blanchedalmond;
+  }
+
+
+  .tarjeta3 {
+    background-color: blanchedalmond;
+    margin-left: 10px;
+    margin-top: 25px;
+    width: 96vmax; 
+    height: 40vh; 
+    border: 1px solid #ccc; 
+    padding: 20px; 
+  }
 
 
 
@@ -57,60 +96,6 @@ input[type="text"] {
 
 
 
-/* 
-.explanation-card {
-background-color: white ;
-padding: 2%;
-margin: 2%;
-display: flex;
-align-items: center;
-flex-direction: column;
-text-align: center;
-}
-
-.titulo-categoria {
-margin: 2%;
-}
 
 
 
-.text-card {
-margin: 2%;
-
-}
-
-.explanation-card-caloriasalimentos {
-background-color: white ;
-padding: 2%;
-margin: 2%;
-}
-    
-.explanation-card-caloriasCalculadora{
-background-color: white ;
-padding: 2%;
-margin: 2%;
-}
-
-
-p {
-background-color: white;
-}
-
-h2 {
-text-align: center;
-padding: 1%;
-color: white;
-text-shadow: 2px 2px black;
-}
-
-div.nutricion_imagen {
-    display: block;
-    width: 50%;
-    height: 50%;
-    margin-left: 20%;
-    margin-right: auto;
-}
-
-.calorias_que_son {
-display: flex;
-} */
