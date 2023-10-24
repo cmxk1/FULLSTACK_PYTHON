@@ -3,42 +3,25 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-
-    <script
-      src="https://cdn.jsdelivr.net/npm/swiffy-slider@1.6.0/dist/js/swiffy-slider.min.js"
-      crossorigin="anonymous"
-      defer
-    ></script>
-    <link
-      href="https://cdn.jsdelivr.net/npm/swiffy-slider@1.6.0/dist/css/swiffy-slider.min.css"
-      rel="stylesheet"
-      crossorigin="anonymous"
-    />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
-    />
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
     />
     <script src="https://kit.fontawesome.com/57d0859458.js" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="css/styles.css" />
-    <link rel="stylesheet" href="css/slider.css" />
-
-    <title>Ejercicio y Nutricion</title>
+    <link rel="stylesheet" href="../css/styles.css" />
+    <link rel="stylesheet" type="text/css" href="../css/contactanos.css">
+    <title>Ejercicios y Nutricion</title>
   </head>
-
   <body>
     <header>
       <div class="topnav" id="myTopnav">
-        <a href="index.html" class="active"
-          ><img src="assets/img/Logo.ico" alt="Logo" class="logo"
+        <a href="../index.html"
+          ><img src="../assets/img/Logo.ico" alt="Logo" class="logo"
         /></a>
-        <a href="src/rutinas.html">Rutinas</a>
-        <a href="src/comunidad.html">Comunidad</a>
-        <a href="src/nutricion.html">Nutricion</a>
-        <a href="src/contactanos.html">Contactanos</a>
+        <a href="rutinas.html">Rutinas</a>
+        <a href="comunidad.html" >Comunidad</a>
+        <a href="nutricion.html">Nutricion</a>
+        <a href="contactanos.html" class="active">Contactanos</a>
         <a href="javascript:void(0);" class="icon" onclick="myFunction()">
           <i class="fa fa-bars"></i>
         </a>
@@ -55,70 +38,39 @@
       </script>
     </header>
     <main>
-      <div class="contenedor">
-        <div class="swiffy-slider">
-          <ul class="slider-container">
-            <li>
-              <img
-                src="assets/img/imagen1.webp"
-                alt="imagen1"
-                style="width: 100%; height: 80%"
-              />
-            <div class="textoslider img1">
-              <h1>Transforma tu cuerpo</h1>
-              <h2>Eleva tu mente...</h2>
-            </div>
-          </li>
+        <h1>Formulario de Contacto</h1>
+        <form id="contact-form">
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="nombre" required>
+            
+            <label for="apellido">Apellido:</label>
+            <input type="text" id="apellido" name="apellido" required>
 
-            <li>
-              <img
-                src="assets/img/ejercicio.webp"
-                alt="imagen2"
-                style="width: 100%; height: 80%"
-              />
-            <div class="textoslider img2">
-              <h1>No te preocupes si no puedes hacer mucho</h1>
-              <h2>Haz lo que puedas hoy y trata de hacerlo mejor mañana.</H2>
-            </div>
-          </li>
+            <label for="telefono">Número de Teléfono:</label>
+            <input type="tel" id="telefono" name="telefono" required>
 
-            <li>
-              <img
-                src="assets/img/pesas.webp"
-                alt="imagen3"
-                style="width: 100%; height: 80%"
-              />
-            <div class="textoslider img3">
-              <h1>La fuerza no viene de lo que puedes hacer...</h1>
-              <h2>...sino de superar lo que creías imposible.</h2>
-            </div>
-          </li>
+            <label for="direccion">Dirección:</label>
+            <input type="text" id="direccion" name="direccion" required>
 
-            <li>
-              <img
-                src="assets/img/Masa_muscular-1483330436.webp"
-                alt="imagen4"
-                style="width: 100%; height: 80%"
-              />
-             <div class="textoslider img4">
-              <h1>Cada día es una oportunidad para ser mejor que ayer.</h1>
-             <h2>No te rindas, sigue adelante, tu esfuerzo valdrá la pena.</h2>
-            </div>
-          </li>
-          </ul>
+            <label for="fecha-de-nacimiento">Fecha de nacimiento:</label>
+            <input type="date" id="fechaNac" name="fechaNac" required>
+            
+            <label for="edad">Edad (debe ser mayor de 18 años):</label>
+            <input type="number" id="edad" name="edad" required min="18">
 
-          <div class="slider-indicators"></div>
-          <button type="button" class="slider-nav"></button>
-          <button type="button" class="slider-nav slider-nav-next"></button>
-          <button class="active"></button> 
-        </div>
-      </div>
+            <label for="email">Correo Electrónico:</label>
+            <input type="email" id="email" name="email" required>
+            
+            <label for="mensaje">Mensaje:</label>
+            <textarea id="mensaje" name="mensaje" required></textarea>
+            
+            <button type="submit">Enviar</button>
+            <input type="reset" value="Borrar Todo">
+        </form>
     </main>
     <footer>
-      <h1>Seguinos en nuestras redes sociales y comunicate con nosotros.</h1>
-      <div>
-        <ul class="icon">
-          <li> <a href="https://www.facebook.com/TuPaginaDeNutricion">
+       <ul class="social-links">
+           <li> <a href="https://www.facebook.com/TuPaginaDeNutricion">
             <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="50" height="50" viewBox="0 0 100 100">
                 <path d="M23.5,93C16.607,93,11,87.393,11,80.5v-57C11,16.607,16.607,11,23.5,11h57C87.393,11,93,16.607,93,23.5v57 C93,87.393,87.393,93,80.5,93H23.5z" opacity=".35"></path><path fill="#f2f2f2" d="M21.5,91C14.607,91,9,85.393,9,78.5v-57C9,14.607,14.607,9,21.5,9h57C85.393,9,91,14.607,91,21.5v57 C91,85.393,85.393,91,78.5,91H21.5z"></path><path fill="#2785bd" d="M15.5,78.5v-57c0-3.314,2.686-6,6-6h57c3.314,0,6,2.686,6,6v57c0,3.314-2.686,6-6,6h-57 C18.186,84.5,15.5,81.814,15.5,78.5z"></path><path fill="#40396e" d="M78.5,86h-57c-4.136,0-7.5-3.364-7.5-7.5v-57c0-4.136,3.364-7.5,7.5-7.5h57 c4.136,0,7.5,3.364,7.5,7.5v57C86,82.636,82.636,86,78.5,86z M21.5,17c-2.481,0-4.5,2.019-4.5,4.5v57c0,2.481,2.019,4.5,4.5,4.5h57 c2.481,0,4.5-2.019,4.5-4.5v-57c0-2.481-2.019-4.5-4.5-4.5H21.5z"></path><g><path fill="#f2f2f2" d="M74.736,49H68v26H58V49h-6v-8h6v-4.82C58.004,29.164,60.918,25,69.184,25H76v8h-4.574 C68.208,33,68,34.2,68,36.446V41h8L74.736,49z"></path></g>
               </svg></a></li>
@@ -134,7 +86,6 @@
                         <path d="M32.5,93C20.645,93,11,83.355,11,71.5v-39C11,20.645,20.645,11,32.5,11h39C83.355,11,93,20.645,93,32.5v39 C93,83.355,83.355,93,71.5,93H32.5z" opacity=".35"></path><path fill="#f2f2f2" d="M30.5,91C18.645,91,9,81.355,9,69.5v-39C9,18.645,18.645,9,30.5,9h39C81.355,9,91,18.645,91,30.5v39 C91,81.355,81.355,91,69.5,91H30.5z"></path><path fill="#d84178" d="M69.5,84.5h-39c-8.284,0-15-6.716-15-15v-39c0-8.284,6.716-15,15-15h39c8.284,0,15,6.716,15,15v39 C84.5,77.784,77.784,84.5,69.5,84.5z"></path><path fill="#40396e" d="M69.5,86h-39C21.402,86,14,78.598,14,69.5v-39C14,21.402,21.402,14,30.5,14h39 C78.598,14,86,21.402,86,30.5v39C86,78.598,78.598,86,69.5,86z M30.5,17C23.056,17,17,23.056,17,30.5v39 C17,76.944,23.056,83,30.5,83h39C76.944,83,83,76.944,83,69.5v-39C83,23.056,76.944,17,69.5,17H30.5z"></path><g><path fill="#f2f2f2" d="M49.995,23c-7.334,0-8.254,0.032-11.134,0.163c-2.875,0.132-4.837,0.587-6.554,1.255 c-1.776,0.69-3.283,1.612-4.783,3.114c-1.502,1.501-2.425,3.007-3.117,4.783c-0.669,1.718-1.125,3.68-1.255,6.554 c-0.129,2.88-0.163,3.801-0.163,11.135s0.033,8.251,0.163,11.131c0.132,2.875,0.587,4.837,1.255,6.554 c0.69,1.776,1.613,3.283,3.114,4.783c1.5,1.502,3.007,2.427,4.782,3.117c1.718,0.668,3.681,1.123,6.555,1.255 c2.88,0.131,3.8,0.163,11.133,0.163c7.334,0,8.252-0.032,11.132-0.163c2.875-0.132,4.839-0.587,6.557-1.255 c1.775-0.69,3.28-1.615,4.78-3.117c1.502-1.501,2.425-3.007,3.117-4.783c0.664-1.718,1.119-3.68,1.255-6.554 c0.129-2.88,0.163-3.798,0.163-11.132s-0.034-8.254-0.163-11.134c-0.135-2.875-0.591-4.837-1.255-6.554 c-0.692-1.776-1.615-3.283-3.117-4.783c-1.502-1.502-3.004-2.425-4.782-3.114c-1.721-0.668-3.685-1.123-6.559-1.255 C58.24,23.032,57.323,23,49.987,23L49.995,23z M47.573,27.866c0.719-0.001,1.521,0,2.422,0c7.21,0,8.064,0.026,10.911,0.155 c2.633,0.12,4.062,0.56,5.014,0.93c1.26,0.489,2.159,1.074,3.103,2.02c0.945,0.945,1.53,1.845,2.021,3.105 c0.37,0.951,0.81,2.38,0.93,5.012c0.129,2.847,0.158,3.702,0.158,10.908s-0.028,8.062-0.158,10.908 c-0.12,2.633-0.56,4.062-0.93,5.012c-0.489,1.26-1.076,2.157-2.021,3.102c-0.945,0.945-1.842,1.53-3.103,2.02 c-0.951,0.371-2.381,0.81-5.014,0.93c-2.847,0.129-3.702,0.158-10.911,0.158c-7.21,0-8.065-0.028-10.911-0.158 c-2.633-0.122-4.062-0.561-5.014-0.931c-1.26-0.489-2.16-1.075-3.105-2.02s-1.53-1.843-2.021-3.104 c-0.37-0.951-0.81-2.38-0.93-5.012c-0.129-2.847-0.155-3.702-0.155-10.913s0.026-8.062,0.155-10.908 c0.12-2.633,0.56-4.062,0.93-5.014c0.489-1.26,1.076-2.16,2.021-3.105c0.945-0.945,1.845-1.53,3.105-2.021 c0.952-0.371,2.381-0.81,5.014-0.931c2.491-0.113,3.456-0.146,8.489-0.152V27.866z M64.409,32.35c-1.789,0-3.24,1.45-3.24,3.239 c0,1.789,1.451,3.24,3.24,3.24c1.789,0,3.24-1.451,3.24-3.24s-1.451-3.24-3.24-3.24V32.35z M49.995,36.136 c-7.658,0-13.867,6.209-13.867,13.867s6.209,13.864,13.867,13.864c7.658,0,13.865-6.206,13.865-13.864S57.653,36.136,49.995,36.136 L49.995,36.136z M49.995,41.002c4.971,0,9.001,4.03,9.001,9.001c0,4.971-4.03,9.001-9.001,9.001c-4.971,0-9.001-4.03-9.001-9.001 C40.994,45.032,45.024,41.002,49.995,41.002z"></path></g>
                         </svg></a></li>
             </ul>
-    </div>
     </footer>
   </body>
 </html>

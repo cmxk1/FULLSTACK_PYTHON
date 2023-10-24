@@ -1,7 +1,19 @@
-.iconos {
-  align-items: center;
+
+ul.iconos {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
 }
 
+ul.iconos li {
+  margin: 0 40px; 
+}
+
+ul.iconos a {
+  text-decoration: none;
+  color: #007BFF;
+}
 .card-container {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));

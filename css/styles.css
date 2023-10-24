@@ -16,7 +16,6 @@ header {
 
 .responsive {
   z-index: 15;
-
 }
 
 .topnav a {
@@ -174,3 +173,30 @@ header {
     margin-bottom: 10px;
     text-shadow: 2px 2px black;
   }
+
+  footer h1 {
+    text-align: center;
+    text-shadow: 2px 2px peru;
+
+  }
+ footer .icon {
+    align-items: center;
+    background-position-x:  center ;
+    background-position-y: center;
+   }
+   
+   .icon {
+   list-style: none;
+   display: flex;
+   justify-content: center;
+   margin-top: 20px;
+}
+
+ul.icon li {
+   margin: 0 40px; 
+}
+
+ul.icon a {
+   text-decoration: none;
+   color: #007BFF;
+}
