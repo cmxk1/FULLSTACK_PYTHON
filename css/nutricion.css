@@ -1,122 +1,101 @@
 body {
-    background-color: antiquewhite;
+  background-color: antiquewhite;
 }
 
-
-
-
 h1 {
-    text-align: center;
-    padding: 1%;
-    color: white;
-    text-shadow: 2px 2px black;
-    text-decoration-line: underline;
+  text-align: center;
+  padding: 1%;
+  color: white;
+  text-shadow: 2px 2px black;
+  text-decoration-line: underline;
 }
 
 img.presentacion {
-    display: block;
-    width: 50%;
-    height: 50%;
-    margin-left: 25%;
-    margin-right: auto;
+  display: block;
+  width: 50%;
+  height: 50%;
+  margin-left: 25%;
+  margin-right: auto;
 }
 
-h2{
-    text-align: center;
-    padding: 1%;
-    color: black;
-    text-shadow: 2px 2px rgb(176, 155, 209);
-    text-decoration-line: underline;
+h2 {
+  text-align: center;
+  padding: 1%;
+  color: black;
+  text-shadow: 2px 2px rgb(176, 155, 209);
+  text-decoration-line: underline;
 }
-
 
 p {
-    text-align-last: center;
-    font-size: 20px; 
-} 
+  text-align-last: center;
+  font-size: 20px;
+}
 
 section div.card-container ul {
-    text-align: center;
-    list-style: none;
-    font-size: 20px; 
+  text-align: center;
+  list-style: none;
+  font-size: 20px;
 }
 
 input {
-    padding: 10px;
-    box-shadow: 2px 2px grey;
-    width: 30%;  
-    margin-bottom: 10px;
-    border-radius: 20px;
-    margin-left: 35%;
+  padding: 10px;
+  box-shadow: 2px 2px grey;
+  width: 30%;
+  margin-bottom: 10px;
+  border-radius: 20px;
+  margin-left: 35%;
 }
 
 label {
-    margin-left: 48%;
-    text-align: center;
-    font-size: 20px;
+  margin-left: 48%;
+  text-align: center;
+  font-size: 20px;
 }
 
-select, button {
-    padding: 10px;
-    box-shadow: 2px 2px grey;
-    width: 32%;  
-    margin-bottom: 10px;
-    border-radius: 20px;
-    margin-left: 35%;
+select,
+button {
+  padding: 10px;
+  box-shadow: 2px 2px grey;
+  width: 32%;
+  margin-bottom: 10px;
+  border-radius: 20px;
+  margin-left: 35%;
 }
-
-
 
 ul.social-links {
-    list-style: none;
-    display: flex;
-    margin-top: 80px;
-    justify-content:space-evenly;
+  list-style: none;
+  display: flex;
+  margin-top: 80px;
+  justify-content: space-evenly;
+}
+
+
+.tarjetas-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 20px;
+  padding: 20px;
+}
+
+.tarjeta,
+.tarjeta2,
+.tarjeta3 {
+  flex: 1;
+  background-color: blanchedalmond;
+  border: 1px solid #ccc;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+
+@media (max-width: 768px) {
+  .tarjetas-container {
+    flex-direction: column;
+    padding: 0;
   }
-  
-  .tarjeta {
-    background-color: blanchedalmond;
-    margin-left: 10px;
-    margin-top: 20px;
-    width: 75vmax; 
-    height: 40vh; 
-    border: 1px solid #ccc; 
-    padding: 20px; 
-  }
+}
 
-
-  .tarjeta2 {
-    width: 17vmax; 
-    height: 40vh; 
-    padding: 20px;
-    border: 1px solid #ccc;
-    margin-top: -22% ;
-    margin-left: 80%;
-    background-color: blanchedalmond;
-  }
-
-
-  .tarjeta3 {
-    background-color: blanchedalmond;
-    margin-left: 10px;
-    margin-top: 25px;
-    width: 96vmax; 
-    height: 40vh; 
-    border: 1px solid #ccc; 
-    padding: 20px; 
-  }
-
-/*  
-@media screen and (max-width: 768px) {
-    
-  }
-   */
-
-
-
-
-
-
-
-
-
+.nutricionTitle {
+    margin-bottom: 20px;
+}
