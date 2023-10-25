@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="../css/rutinas.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <title>Ejercicios y Nutricion</title>
+  </head>
+  <body>
+    <header>
+      <div class="topnav" id="myTopnav">
+        <a href="../index.html"><img src="../assets/img/Logo.ico" alt="Logo" class="logo"></a>
+        <a href="rutinas.html" class="active">Rutinas</a>
+        <a href="comunidad.html">Comunidad</a>
+        <a href="nutricion.html">Nutricion</a>
+        <a href="contactanos.html">Contactanos</a>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+          <i class="fa fa-bars"></i>
+        </a>
+      </div>
+      <script>
+        function myFunction() {
+          var x = document.getElementById("myTopnav");
+          if (x.className === "topnav") {
+            x.className += " responsive";
+          } else {
+            x.className = "topnav";
+          }
+        }
+      </script>
+    </header>
+    <main>
+      <h2 style="text-align: center; margin-top: 20px; text-decoration-line: underline;">Rutinas de la Semana</h2>
+      <section class="rutinas-container">
+        
+        <div class="rutina">
+            <h2><i class="fas fa-dumbbell"></i>Rutina Básica</h2>
+            <p>Esta rutina básica está diseñada para mejorar tu fuerza y resistencia muscular. Combina tres ejercicios clave para un entrenamiento de cuerpo completo que te ayudará a comenzar tu viaje hacia un estilo de vida más saludable y en forma.</p>
+            <ul>
+                <li>Ejercicio 1: Flexiones de brazos - 3 series de 10 repeticiones</li>
+                <li>Ejercicio 2: Sentadillas - 3 series de 12 repeticiones</li>
+                <li>Ejercicio 3: Abdominales - 3 series de 15 repeticiones</li>
+                <!-- Agrega más ejercicios según sea necesario -->
+            </ul>
+            <p><strong>Duración estimada:</strong> 30 minutos aproximadamente</p>
+        </div>
+    
+        <div class="rutina">
+          <h2><i class="fas fa-running"></i> Rutina Intermedia</h2>
+          <p>Esta rutina intermedia es ideal para aquellos que desean llevar su entrenamiento al siguiente nivel. Incorpora ejercicios más desafiantes para aumentar la resistencia y mejorar la fuerza muscular. ¡Prepárate para sentirte más en forma que nunca!</p>
+          <ul>
+              <li>Ejercicio 1: Burpees - 4 series de 12 repeticiones</li>
+              <li>Ejercicio 2: Lunges con pesas - 4 series de 10 repeticiones por pierna</li>
+              <li>Ejercicio 3: Plancha - 3 series de 45 segundos</li>
+              <!-- Agrega más ejercicios según sea necesario -->
+          </ul>
+          <p><strong>Duración estimada:</strong> 45 minutos aproximadamente</p>
+      </div>
+  
+      <div class="rutina">
+          <h2><i class="fas fa-heartbeat"></i> Rutina Avanzada</h2>
+          <p>Prepárate para un desafío completo con esta rutina avanzada. Diseñada para atletas experimentados, esta rutina te llevará al límite y te ayudará a alcanzar un nuevo nivel de fuerza y resistencia. ¡Acepta el desafío y alcanza tu máximo potencial!</p>
+          <ul>
+              <li>Ejercicio 1: Dominadas - 4 series de 8 repeticiones</li>
+              <li>Ejercicio 2: Peso muerto - 4 series de 6 repeticiones</li>
+              <li>Ejercicio 3: Flexiones con palmada - 3 series de 12 repeticiones</li>
+              <!-- Agrega más ejercicios según sea necesario -->
+          </ul>
+          <p><strong>Duración estimada:</strong> 60 minutos aproximadamente</p>
+      </div>
+    </section>
+    
+    </main>
+    <footer>
+      <h2>Tu Playlist para la Rutina</h2>
+      <iframe style="border-radius:12px" src="https://open.spotify.com/embed/album/0hePnTldrfYjUvUhKrR79Y?utm_source=generator&theme=0" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+    </footer>
+  </body>
+</html>
